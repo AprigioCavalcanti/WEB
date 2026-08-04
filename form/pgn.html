@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre id="saida"></pre>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const event = params.get("event");
+        const site = params.get("site");
+        const startdatetime = params.get("startdatetime");
+        const enddatetime = params.get("enddatetime");
+        const round = params.get("round");
+        const white = params.get("white");
+        const whiteELO = params.get("whiteELO");
+        const black = params.get("black");
+        const blackELO = params.get("blackELO");
+        const result = params.get("result");
+        const san = params.get("san");
+
+        var pgn = "";
+        if (event) {
+            pgn = pgn + `[event "${event}"]\n`;
+        } 
+        if (site) {
+            pgn = pgn + `[site "${site}"]\n`;
+        } 
+        if (startdatetime) {
+            const [date, time] = startdatetime.split("T");
+            pgn = pgn + `[startDate "${date}"]\n`;
+            pgn = pgn + `[startTime "${time}"]\n`;
+        } 
+        if (enddatetime) {
+            const [date, time] = enddatetime.split("T");
+            pgn = pgn + `[endDate "${date}"]\n`;
+            pgn = pgn + `[endTime "${time}"]\n`;
+        } 
+        if (round) {
+            pgn = pgn + `[round "${round}"]\n`;
+        }
+        pgn = pgn + `[white "${white}"]\n`;
+        if (whiteELO) {
+            pgn = pgn + `[whiteELO "${whiteELO}"]\n`;
+        } 
+        pgn = pgn + `[black "${black}"]\n`;
+        if (blackELO !== "") {
+            pgn = pgn + `[blackELO "${blackELO}"]\n`;
+        }
+        pgn = pgn + `[result "${result}"]\n\n`;
+        pgn = pgn + `${san}`;
+        
+        //console.log(pgn);
+
+        document.getElementById("saida").textContent = pgn;
+    </script>
+</body>
+</html>

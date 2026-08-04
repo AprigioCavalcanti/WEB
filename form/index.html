@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Construtor de PGN</h2>
+    <p>Portable Game Notation (PGN) é um formato para 
+        registrar e salvar partidas de xadrez. É composto 
+        por cabeçalhos seguidos dos lances descritos em 
+        uma notação chamada Standard Algebraic Notation (SAN).</p>
+    <p>Abaixo um formulário para construir e salvar um PGN.</p>
+    <form id="pgn-form" action="./pgn.html" method="get">
+        <div>
+            <label for="event">Evento: </label>
+            <input type="text" 
+                   name="event" 
+                   id="event" 
+                   placeholder="Nome do torneio">
+        </div>
+        <div>
+            <label for="site">Local: </label>
+            <input type="text" 
+                   name="site" 
+                   id="site" 
+                   placeholder="Local presencial ou online.">
+        </div>
+        <div>
+            <label for="startdatetime">Inicio:</label>
+            <input type="datetime-local" 
+                   name="startdatetime" 
+                   id="startdatetime">
+        </div>
+        <div>
+            <label for="enddatetime">Inicio:</label>
+            <input type="datetime-local" 
+                   name="enddatetime" 
+                   id="enddatetime">
+        </div>
+        <div>
+            <label for="round">Rodada:</label>
+            <input type="number" 
+                   name="round" 
+                   id="round" 
+                   min="0" 
+                   step="1">
+        </div>
+        <div>
+            <label for="white">Brancas:</label>
+            <input type="text" 
+                   name="white" 
+                   id="white" 
+                   minlength="3" 
+                   maxlength="100" 
+                   required 
+                   placeholder="Nome do jogador">
+        </div>
+        <div>
+            <label for="whiteELO">Rating Brancas:</label>
+            <input type="number" 
+                   name="whiteELO" 
+                   id="whiteELO" 
+                   min="0" 
+                   max="9999" 
+                   step="1">
+        </div>
+        
+        <div>
+            <label for="black">Pretas:</label>
+            <input type="text" 
+                   name="black" 
+                   id="black" 
+                   minlength="3" 
+                   maxlength="100" 
+                   required 
+                   placeholder="Nome do jogador">
+        </div>
+        <div>
+            <label for="blackELO">Rating Pretas:</label>
+            <input type="number" 
+                   name="blackELO" 
+                   id="blackELO" 
+                   min="0" 
+                   max="9999" 
+                   step="1">
+        </div>
+        
+        <div>
+            <label for="result">Resultado:</label>
+            <select name="result" id="result" required>
+                <option value="1-0">1-0</option>
+                <option value="1/2-1/2">1/2-1/2</option>
+                <option value="0-1">0-1</option>
+                <option value="*">*</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="san">SAN:</label>
+            <textarea 
+            name="san" 
+            id="san" 
+            rows="10" 
+            placeholder="1. e4 e5 &#10;2. Nf3 Nc6 &#10;3. Bb5 a6 &#10;4. Ba4 Nf6 &#10;5. O-O Be7 &#10;...&#10;53. Rc3 Kf8 &#10;54. Kh3 1-0"></textarea>
+        </div>
+
+        <button type="submit">Gerar PGN</button>
+    </form>
+</body>
+</html>
