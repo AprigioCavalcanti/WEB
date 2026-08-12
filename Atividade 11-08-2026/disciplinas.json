@@ -1,0 +1,686 @@
+[
+  {
+    "nome": "Cálculo I",
+    "codigo": "IME01-04827",
+    "periodo": "1",
+    "tipo": "Obrigatória",
+    "creditos": "6",
+    "carga_horaria": "90",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Geometria Analítica",
+    "codigo": "IME03-10814",
+    "periodo": "1",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Álgebra",
+    "codigo": "IME02-10815",
+    "periodo": "1",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Matemática Discreta",
+    "codigo": "IME06-10816",
+    "periodo": "1",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Fundamentos da Computação",
+    "codigo": "IME04-10817",
+    "periodo": "1",
+    "tipo": "Obrigatória",
+    "creditos": "5",
+    "carga_horaria": "90",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Cálculo II",
+    "codigo": "IME01-06766",
+    "periodo": "2",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Álgebra Linear",
+    "codigo": "IME02-10818",
+    "periodo": "2",
+    "tipo": "Obrigatória",
+    "creditos": "6",
+    "carga_horaria": "90",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Cálculo das Probabilidades",
+    "codigo": "IME05-10819",
+    "periodo": "2",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Algoritmos e Estruturas de Dados I",
+    "codigo": "IME04-10820",
+    "periodo": "2",
+    "tipo": "Obrigatória",
+    "creditos": "6",
+    "carga_horaria": "90",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Linguagem de Programação I",
+    "codigo": "IME04-10821",
+    "periodo": "2",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Física I",
+    "codigo": "FIS01-10982",
+    "periodo": "2",
+    "tipo": "Obrigatória",
+    "creditos": "5",
+    "carga_horaria": "90",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Cálculo III",
+    "codigo": "IME01-06767",
+    "periodo": "3",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Português Instrumental",
+    "codigo": "ILE02-10822",
+    "periodo": "3",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Algoritmos e Estruturas de Dados II",
+    "codigo": "IME04-10823",
+    "periodo": "3",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Elementos de Lógica",
+    "codigo": "IME02-10824",
+    "periodo": "3",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Linguagem de Programação II",
+    "codigo": "IME04-10825",
+    "periodo": "3",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Teoria da Computação",
+    "codigo": "IME04-10826",
+    "periodo": "3",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Cálculo Numérico",
+    "codigo": "IME06-10827",
+    "periodo": "4",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Cálculo IV",
+    "codigo": "IME01-10828",
+    "periodo": "4",
+    "tipo": "Obrigatória",
+    "creditos": "6",
+    "carga_horaria": "90",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Engenharia de Software",
+    "codigo": "IME04-10830",
+    "periodo": "4",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "59"
+  },
+  {
+    "nome": "Arquitetura de Computadores I",
+    "codigo": "IME04-10831",
+    "periodo": "4",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Física II",
+    "codigo": "FIS03-10983",
+    "periodo": "4",
+    "tipo": "Obrigatória",
+    "creditos": "5",
+    "carga_horaria": "90",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Algoritmos em Grafos",
+    "codigo": "IME04-11311",
+    "periodo": "4",
+    "tipo": "Obrigatória",
+    "creditos": "3",
+    "carga_horaria": "45",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Banco de Dados I",
+    "codigo": "IME04-10832",
+    "periodo": "5",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "69"
+  },
+  {
+    "nome": "Análise e Projeto de Sistemas",
+    "codigo": "IME04-10833",
+    "periodo": "5",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Estruturas de Linguagens",
+    "codigo": "IME04-10834",
+    "periodo": "5",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Sistemas Operacionais I",
+    "codigo": "IME04-10835",
+    "periodo": "5",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Arquitetura de Computadores II",
+    "codigo": "IME04-10836",
+    "periodo": "5",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Otimização em Grafos",
+    "codigo": "IME04-11312",
+    "periodo": "5",
+    "tipo": "Obrigatória",
+    "creditos": "3",
+    "carga_horaria": "45",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Otimização Combinatória",
+    "codigo": "IME06-10837",
+    "periodo": "6",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Banco de Dados II",
+    "codigo": "IME04-10838",
+    "periodo": "6",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Interfaces Humano-Computador",
+    "codigo": "IME04-10839",
+    "periodo": "6",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "99"
+  },
+  {
+    "nome": "Sistemas Operacionais II",
+    "codigo": "IME04-10840",
+    "periodo": "6",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Compiladores",
+    "codigo": "IME04-10841",
+    "periodo": "6",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Computação Gráfica",
+    "codigo": "IME04-10842",
+    "periodo": "7",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "108"
+  },
+  {
+    "nome": "Inteligência Artificial",
+    "codigo": "IME04-10843",
+    "periodo": "7",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "108"
+  },
+  {
+    "nome": "Ética, Computadores e Sociedade",
+    "codigo": "IME04-10844",
+    "periodo": "7",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "118"
+  },
+  {
+    "nome": "Metodologia Científica no Projeto Final",
+    "codigo": "IME04-10845",
+    "periodo": "7",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "118"
+  },
+  {
+    "nome": "Redes de Computadores I",
+    "codigo": "IME04-10846",
+    "periodo": "7",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Arquiteturas Avançadas de Computadores",
+    "codigo": "IME04-10847",
+    "periodo": "7",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Projeto Final",
+    "codigo": "IME04-10848",
+    "periodo": "8",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Sistemas Distribuídos",
+    "codigo": "IME04-10849",
+    "periodo": "8",
+    "tipo": "Obrigatória",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Álgebra Linear aplic à Computação Gráfica",
+    "codigo": "IME04-10850",
+    "periodo": "5",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "99"
+  },
+  {
+    "nome": "Análise Numérica",
+    "codigo": "IME06-10852",
+    "periodo": "5",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Estatística Aplicada",
+    "codigo": "IME05-10862",
+    "periodo": "5",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Ling Inglesa Instr p/Leitura na Ciência da Computação",
+    "codigo": "ILE04-10866",
+    "periodo": "5",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Fundamentos de Administração",
+    "codigo": "FAF03-04304",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Empreendedor em Tecnologia de Informação",
+    "codigo": "IME04-06247",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Tópicos Especiais de Matemática Aplicada I",
+    "codigo": "IME06-08559",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Tópicos Especiais de Matemática Aplicada II",
+    "codigo": "IME06-08560",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Avaliação e Inovação em Tecnologia",
+    "codigo": "IME04-10679",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Algoritmos Distribuídos",
+    "codigo": "IME04-10851",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Algoritmos para Geometria Computacional",
+    "codigo": "IME04-10853",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "99"
+  },
+  {
+    "nome": "Aspectos Práticos em Ciência da Computação I",
+    "codigo": "IME04-10854",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "59"
+  },
+  {
+    "nome": "Aspectos Práticos em Ciência da Computação II",
+    "codigo": "IME04-10855",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "59"
+  },
+  {
+    "nome": "Aspectos Práticos em Redes de Computadores",
+    "codigo": "IME04-10856",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Aspectos Práticos em Sistemas Operacionais",
+    "codigo": "IME04-10857",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Computação Científica",
+    "codigo": "IME06-10858",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Desenvolvimento e Implementação de Algoritmos",
+    "codigo": "IME04-10859",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Empreendedor em Tecnologia da Informação",
+    "codigo": "IME04-10860",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "41"
+  },
+  {
+    "nome": "Engenharia de Requisitos de Software",
+    "codigo": "IME04-10861",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "99"
+  },
+  {
+    "nome": "Filosofia da Ciência",
+    "codigo": "IME04-10863",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "99"
+  },
+  {
+    "nome": "Gestão de Tecnologia da Informação",
+    "codigo": "IME04-10864",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "99"
+  },
+  {
+    "nome": "Informática na Educação",
+    "codigo": "IME04-10865",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "99"
+  },
+  {
+    "nome": "Modelagem de Sistemas",
+    "codigo": "IME04-10867",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "79"
+  },
+  {
+    "nome": "Programação Paralela e Distribuída",
+    "codigo": "IME04-10868",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Qualidade de Software",
+    "codigo": "IME04-10869",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "79"
+  },
+  {
+    "nome": "Realidade Virtual",
+    "codigo": "IME04-10870",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "108"
+  },
+  {
+    "nome": "Redes de Computadores II",
+    "codigo": "IME04-10871",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Redes Neuronais",
+    "codigo": "IME04-10872",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "108"
+  },
+  {
+    "nome": "Sistemas de Informação",
+    "codigo": "IME04-10873",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "108"
+  },
+  {
+    "nome": "Tópicos Especiais I",
+    "codigo": "IME04-10874",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "108"
+  },
+  {
+    "nome": "Tópicos Especiais II",
+    "codigo": "IME04-10875",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "108"
+  },
+  {
+    "nome": "Física III",
+    "codigo": "FIS02-11016",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "5",
+    "carga_horaria": "90",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Física IV",
+    "codigo": "FIS03-11017",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "5",
+    "carga_horaria": "90",
+    "trava_credito": "0"
+  },
+  {
+    "nome": "Gestão da Inovação",
+    "codigo": "IME04-11454",
+    "periodo": "-",
+    "tipo": "E. Restrita",
+    "creditos": "4",
+    "carga_horaria": "60",
+    "trava_credito": "0"
+  }
+]
